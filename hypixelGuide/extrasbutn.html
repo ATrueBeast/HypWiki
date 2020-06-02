@@ -1,0 +1,92 @@
+<div class="extras-dropdown">
+    <form method="get" action="">
+        <button class="btn extras-btn" type="submit">EXTRAS</button>
+    </form>
+    <div class="extras-dropdown-content">
+        <a href="">
+            Extras 1
+        </a>
+
+        <a href="">
+            Extras 2
+        </a>
+
+        <a href="">
+            Extras 3
+        </a>
+    </div>
+</div>
+
+<style>
+    .extras-btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid violet;
+}
+
+.extras-btn:hover {
+    background-color: violet;
+    color: white;
+}
+
+/* [Extras Button Dropdown Formatting] -------------------------- */
+
+.extras-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.extras-dropdown-content {  /* Dropdown Content (Hidden by Default) */
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+.extras-dropdown-content a {    /* Links inside the dropdown */
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+.extras-dropdown-content a:hover {     /* Change color of dropdown links on hover */
+    background-color: #ddd;
+}
+
+
+.extras-dropdown:hover .extras-dropdown-content {   /* Show the dropdown menu on hover */
+    display: block;
+}
+
+
+.extras-dropdown:hover .extras-btn {  /* Change the background color of the dropdown button when the dropdown content is shown */
+    background-color: violet;
+}   
+
+/* [Section Formatting] -------------------------- */
+
+.main-title {
+    color: white;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-req {
+    position: sticky;
+    top: auto;
+}
+
+.footer-main {
+    background-blend-mode: normal   ;
+}
+</style>

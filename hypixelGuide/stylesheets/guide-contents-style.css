@@ -1,0 +1,11 @@
+#guide-contents-pg-wrapper {
+    height: 350px; /* height of container */
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #0b0a07 url(https://cdn.discordapp.com/attachments/677255897134792748/717076820285194250/frontpgbgndpic.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 16px;
+}
