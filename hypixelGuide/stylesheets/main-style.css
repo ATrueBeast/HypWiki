@@ -1,6 +1,5 @@
 /* [Main Full Page Formatting] -------------------------- */
 
-
 .mainpg-wrap {
     width: 100%;
     margin: 0 auto;
@@ -46,7 +45,7 @@ html {
 }
 
 
-/* [Button Formatting] -------------------------- */
+/* [Nav Button Formatting] -------------------------- */
 
 @media screen and (min-width: 2000px) {
     .btn {
@@ -179,9 +178,7 @@ html {
 
 .main-title {
     color: white;
-}
-
-.main-title {
+    font-family: "Yatra One";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,5 +190,5 @@ html {
 }
 
 .footer-main {
-    background-blend-mode: normal   ;
+    background-blend-mode: normal;
 }
