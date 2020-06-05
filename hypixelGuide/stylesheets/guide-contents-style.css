@@ -1,6 +1,6 @@
 #guide-contents-pg-wrapper {
-    height: 350px; /* height of container */
-    overflow: hidden;
+    height: 500px; /* height of container */
+    object-fit: cover;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -8,4 +8,10 @@
     background-position: top center;
     background-repeat: no-repeat;
     padding: 16px;
+}
+
+#guide-contents-pg-main {
+    background: black;
+    opacity: 70%;
+    color: white;
 }
